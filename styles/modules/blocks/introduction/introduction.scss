@@ -1,0 +1,29 @@
+.introduction {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr min-content;
+  @include section-border;
+}
+
+@media screen and (min-width: 1440px) {
+  .introduction {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introduction {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .introduction {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}

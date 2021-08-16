@@ -1,0 +1,24 @@
+@use "sass:map";
+@import '../vendor/fonts.css';
+@import '../vendor/normalize.css';
+@import './modules/variables.scss';
+@import './modules/mixins.scss';
+
+@import './modules/blocks/page/page.scss';
+@import './modules/blocks/page/__content/page__content.scss';
+@import './modules/blocks/logo/logo.scss';
+
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/header/__menu/header__menu.scss';
+@import './modules/blocks/header/__menu-wrap/header__menu-wrap.scss';
+@import './modules/blocks/header/__menu-item/header__menu-item.scss';
+@import './modules/blocks/header/__menu-link/header__menu-link.scss';
+@import './modules/blocks/header/__close-menu-btn/header__close-menu-btn.scss';
+@import './modules/blocks/header/__open-menu-btn/header__open-menu-btn.scss';
+
+@import './modules/blocks/introduction/introduction.scss';
+@import './modules/blocks/introduction/__text/introduction__text.scss';
+@import './modules/blocks/introduction/__text-content/introduction__text-content.scss';
+@import './modules/blocks/introduction/__img/introduction__img.scss';
+@import './modules/blocks/introduction/__heading/introduction__heading.scss';
+@import './modules/blocks/introduction/__link/introduction__link.scss';

@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  position: relative;
+  min-height: 70px;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  @include section-border;
+  @include section-padding("l");
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    @include section-padding("m");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    @include section-padding("s");
+  }
+}

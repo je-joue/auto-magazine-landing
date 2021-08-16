@@ -1,0 +1,32 @@
+@mixin section-border {
+  border-bottom: $border;
+}
+
+@mixin section-padding($padding) {
+  padding-left: map.get($side-padding, $padding);
+  padding-right: map.get($side-padding, $padding);
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin reset-text {
+  margin: 0;
+  padding: 0;
+}
+
+
+@mixin reset-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}

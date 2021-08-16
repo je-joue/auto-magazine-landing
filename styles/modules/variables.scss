@@ -1,0 +1,21 @@
+
+$color: (
+  "dark": #191D2C,
+  "yellow": #E1FD2C,
+);
+
+$side-padding: (
+  "l": 50px,
+  "m": 34px,
+  "s": 20px,
+);
+
+$logo-width: (
+  "regular": 184px,
+  "small": 100px,
+
+);
+
+$border: 1px solid map.get($color, "yellow");
+
+

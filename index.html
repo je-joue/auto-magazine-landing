@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>AUTO-MAGAZINE</title>
+</head>
+
+<body class="page">
+  <div class="page__content">
+    <header class="header">
+      <nav class="header__menu">
+        <ul class="header__menu-wrap">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">Факты</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">ГАЛЕРЕЯ</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="#">ПРЕССА</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="logo"></div>
+      <button class="header__open-menu-btn"></button>
+      <button class="header__close-menu-btn"></button>
+    </header>
+
+    <main>
+
+      <section class="introduction">
+        <div class="introduction__text-content">
+          <p class="introduction__text">volkswagen T1</p>
+          <h1 class="introduction__heading">Новая версия популярного микроавтобуса</h1>
+          <p class="introduction__text">С ЭЛЕКТРО ДВИГАТЕЛЕМ</p>
+        </div>
+        <img src="./images/heading_pic.jpg" alt="volkswagen T1" class="introduction__img">
+        <a class="introduction__link" href="#">Подробнее</a>
+      </section>
+
+      <section class="description">
+        <!-- <ul class="photo-content__cards"></ul> -->
+      </section>
+
+      <section class="gallery">
+
+      </section>
+
+      <section class="press">
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <!-- <p class="footer__copyright">© 2021 Mesto Russia</p> -->
+    </footer>
+  </div>
+
+
+
+  <!-- Popups -->
+
+  <!-- <div class="popup" id="profile-edit-popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close-button page__button" id="profile-edit-close"></button>
+      <form class="form" name="form" id="profile-edit-form">
+        <h2 class="form__title">Редактировать профиль</h2>
+        <fieldset class="form__items">
+          <input class="form__item" type="text" name="name" placeholder="Имя" id="edit-name">
+          <input class="form__item" type="text" name="activity" placeholder="Род деятельности" id="edit-activity">
+        </fieldset>
+        <button type="submit" class="form__submit-button page__button">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup" id="add-card-popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close-button page__button" id="add-card-close"></button>
+      <form class="form" name="form" id="add-card-form">
+        <h2 class="form__title">Новое место</h2>
+        <fieldset class="form__items">
+          <input class="form__item form__item_place_add-card" type="text" name="card-name" placeholder="Название" id="card-name">
+          <input class="form__item form__item_place_add-card" type="url" name="card-link" placeholder="Ссылка на картинку" id="card-link">
+        </fieldset>
+        <button type="submit" class="form__submit-button page__button">Сохранить</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="popup popup_image-popup" id="image-popup">
+    <div class="popup__container">
+      <button type="button" class="popup__close-button page__button" id="image-popup-close"></button>
+      <figure class="popup__card">
+        <img class="popup__image" src="" alt="Фото">
+        <figcaption class="popup__image-caption"></figcaption>
+      </figure>
+    </div>
+  </div>
+
+<!-- Templates -->
+<!-- <template id="card-template">
+  <li class="card">
+    <img class="card__photo" src="" alt="">
+    <button type="button" class="card__delete-button page__button"></button>
+    <div class="card__info">
+      <p class="card__text"></p>
+      <button type="button" class="card__like page__button"></button>
+    </div>
+  </li>
+</template> --> -->
+
+<script src="./js/script.js"></script>
+</body>
+</html>
