@@ -1,0 +1,15 @@
+.press__link {
+  @include reset-link;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 50px;
+  text-align: center;
+  border: $border;
+  width: 110px;
+  // height: 52px;
+  border-radius: 55px / 26px;
+  -moz-border-radius: 55px / 26px;
+  -webkit-border-radius: 55px / 26px;
+  box-sizing: border-box;
+  display: inline-block;
+}

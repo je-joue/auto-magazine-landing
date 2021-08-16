@@ -1,0 +1,12 @@
+.gallery__btn {
+  @include reset-button;
+  width: 42px;
+  height: 34px;
+  background-image: url(../images/arrow.svg);
+  background-size: contain;
+  margin-right: 30px;
+}
+
+.gallery__btn:last-of-type {
+  margin-right: 0;
+}

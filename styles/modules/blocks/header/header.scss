@@ -5,15 +5,21 @@
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   @include section-border;
-  @include section-padding("l");
+  @include section-padding("m");
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1440px) {
   .header {
-    @include section-padding("m");
+    @include section-padding("l");
   }
 }
+
+// @media screen and (max-width: 768px) {
+//   .header {
+//     @include section-padding("m");
+//   }
+// }
 
 @media screen and (max-width: 320px) {
   .header {

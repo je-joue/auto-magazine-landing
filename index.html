@@ -41,16 +41,70 @@
         <a class="introduction__link" href="#">Подробнее</a>
       </section>
 
-      <section class="description">
-        <!-- <ul class="photo-content__cards"></ul> -->
+      <section class="facts">
+        <p class="facts__text"><span class="facts__text-span">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli: классический вэн T1 1966 года
+          с электрической силовой установкой.
+          По словам производителя, проект получит коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары
+          и уже готовые машины будут продавать частным клиентам.</p>
+          <div class="facts__list-wrap">
+            <h3 class="facts__list-heading">ПЛЮСЫ</h3>
+            <ul class="facts__list">
+              <li class="facts__list-item">+ Экологичный</li>
+              <li class="facts__list-item">+ Экономный</li>
+              <li class="facts__list-item">+ Тихий</li>
+            </ul>
+          </div>
+          <div class="facts__list-wrap">
+            <h3 class="facts__list-heading">МИНУСЫ</h3>
+            <ul class="facts__list">
+              <li class="facts__list-item">- Дорогой</li>
+              <li class="facts__list-item">- Подзарядка</li>
+            </ul>
+          </div>
       </section>
 
       <section class="gallery">
-
+        <div class="gallery__content">
+          <div class="slider">
+            <ul class="slider__track">
+              <li class="slider__item">
+                <img class="gallery__image" src="./images/slider1.jpg" alt="Фото 1">
+              </li>
+              <li class="slider__item">
+                <img class="gallery__image" src="./images/slider2.jpg" alt="Фото 1">
+              </li>
+              <li class="slider__item">
+                <img class="gallery__image" src="./images/slider3.jpg" alt="Фото 1">
+              </li>
+            </ul>
+          </div>
+          <div class="gallery__wrap">
+            <h2 class="gallery__heading">Галерея</h2>
+            <div class="gallery__buttons">
+              <button type="button" class="gallery__btn gallery__btn_type_back"></button>
+              <button type="button" class="gallery__btn"></button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="press">
-
+        <h2 class="press__heading">Пресса</h2>
+        <div class="press__slider-wrap">
+          <div class="slider">
+            <ul class="slider__track">
+              <li class="slider__item">
+                <p class="press__text"><span class="press__span">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+                <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" class="press__link">Читать</a>
+              </li>
+              <li class="slider__item">
+                <p class="press__text"><span class="press__span">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
+                <a href="https://www.drive.ru/news/volkswagen/5e7447bdec05c4b251000010.html" class="press__link">Читать</a>
+              </li>
+            </ul>
+          </div>
+          <!-- dots  -->
+        </div>
       </section>
 
     </main>
@@ -102,8 +156,8 @@
     </div>
   </div>
 
-<!-- Templates -->
-<!-- <template id="card-template">
+Templates
+ <template id="card-template">
   <li class="card">
     <img class="card__photo" src="" alt="">
     <button type="button" class="card__delete-button page__button"></button>
@@ -112,7 +166,7 @@
       <button type="button" class="card__like page__button"></button>
     </div>
   </li>
-</template> --> -->
+</template> -->
 
 <script src="./js/script.js"></script>
 </body>

@@ -22,3 +22,32 @@
 @import './modules/blocks/introduction/__img/introduction__img.scss';
 @import './modules/blocks/introduction/__heading/introduction__heading.scss';
 @import './modules/blocks/introduction/__link/introduction__link.scss';
+
+@import './modules/blocks/facts/facts.scss';
+@import './modules/blocks/facts/__text/facts__text.scss';
+@import './modules/blocks/facts/__text-span/facts__text-span.scss';
+@import './modules/blocks/facts/__list/facts__list.scss';
+@import './modules/blocks/facts/__list-wrap/facts__list-wrap.scss';
+@import './modules/blocks/facts/__list-item/facts__list-item.scss';
+@import './modules/blocks/facts/__list-heading/facts__list-heading.scss';
+
+@import './modules/blocks/gallery/gallery.scss';
+@import './modules/blocks/gallery/__wrap/gallery__wrap.scss';
+@import './modules/blocks/gallery/__image/gallery__image.scss';
+@import './modules/blocks/gallery/__heading/gallery__heading.scss';
+@import './modules/blocks/gallery/__content/gallery__content.scss';
+@import './modules/blocks/gallery/__buttons/gallery__buttons.scss';
+@import './modules/blocks/gallery/__btn/gallery__btn.scss';
+@import './modules/blocks/gallery/__btn/_type_back/gallery__btn_type_back.scss';
+@import './modules/blocks/gallery/__btn/_disabled/gallery__btn_disabled.scss';
+
+@import './modules/blocks/slider/slider.scss';
+@import './modules/blocks/slider/__track/slider__track.scss';
+@import './modules/blocks/slider/__item/slider__item.scss';
+
+@import './modules/blocks/press/press.scss';
+@import './modules/blocks/press/__text/press__text.scss';
+@import './modules/blocks/press/__span/press__span.scss';
+@import './modules/blocks/press/__slider-wrap/press__slider-wrap.scss';
+@import './modules/blocks/press/__link/press__link.scss';
+@import './modules/blocks/press/__heading/press__heading.scss';

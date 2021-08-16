@@ -7,6 +7,18 @@
   padding-right: map.get($side-padding, $padding);
 }
 
+@mixin grid-desktop {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  @include section-border;
+}
+
+@mixin section-title {
+  font-weight: 400;
+  line-height: 100%;
+}
+
 @mixin reset-list {
   margin: 0;
   padding: 0;

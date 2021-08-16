@@ -1,0 +1,14 @@
+.introduction__text {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 1.3vw;
+  line-height: 147%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .introduction__text {
+    font-size: 19px;
+  }
+}

@@ -1,0 +1,13 @@
+.introduction__heading {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 4.5vw;
+  line-height: 112%;
+  text-align: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .introduction__heading {
+    font-size: 65px;
+  }
+}

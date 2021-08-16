@@ -1,0 +1,12 @@
+.facts__list-item {
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 145%;
+  padding-bottom: 2px;
+}
+
+@media screen and (min-width: 1440px) {
+  .facts__list-item {
+    font-size: 22px;
+  }
+}

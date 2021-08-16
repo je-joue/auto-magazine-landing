@@ -1,0 +1,11 @@
+.gallery__heading {
+  @include reset-text;
+  @include section-title;
+  font-size: 3.2vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery__heading {
+    font-size: 46px;
+  }
+}

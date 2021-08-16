@@ -1,0 +1,19 @@
+.facts__list-wrap {
+  padding-top: 2.7vw;
+  padding-bottom: 3.1vw;
+  @include section-padding("m");
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.facts__list-wrap:first-of-type {
+  border-right: $border;
+}
+
+@media screen and (min-width: 1440px) {
+  .facts__text {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    @include section-padding("l");
+  }
+}
