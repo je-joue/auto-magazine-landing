@@ -65,19 +65,17 @@
 
       <section class="gallery">
         <div class="gallery__content">
-          <div class="slider">
-            <ul class="slider__track">
-              <li class="slider__item">
-                <img class="gallery__image" src="./images/slider1.jpg" alt="Фото 1">
-              </li>
-              <li class="slider__item">
-                <img class="gallery__image" src="./images/slider2.jpg" alt="Фото 1">
-              </li>
-              <li class="slider__item">
-                <img class="gallery__image" src="./images/slider3.jpg" alt="Фото 1">
-              </li>
-            </ul>
-          </div>
+          <ul class="slider">
+            <li class="slider__item">
+              <img class="gallery__image" src="./images/slider1.jpg" alt="Фото 1">
+            </li>
+            <li class="slider__item">
+              <img class="gallery__image" src="./images/slider2.jpg" alt="Фото 1">
+            </li>
+            <li class="slider__item">
+              <img class="gallery__image" src="./images/slider3.jpg" alt="Фото 1">
+            </li>
+          </ul>
           <div class="gallery__wrap">
             <h2 class="gallery__heading">Галерея</h2>
             <div class="gallery__buttons">
@@ -91,82 +89,46 @@
       <section class="press">
         <h2 class="press__heading">Пресса</h2>
         <div class="press__slider-wrap">
-          <div class="slider">
-            <ul class="slider__track">
-              <li class="slider__item">
-                <p class="press__text"><span class="press__span">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
-                <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" class="press__link">Читать</a>
-              </li>
-              <li class="slider__item">
-                <p class="press__text"><span class="press__span">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
-                <a href="https://www.drive.ru/news/volkswagen/5e7447bdec05c4b251000010.html" class="press__link">Читать</a>
-              </li>
-            </ul>
-          </div>
-          <!-- dots  -->
+          <ul class="slider">
+            <li class="slider__item slider__item_section_press">
+              <p class="press__text"><span class="press__span">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+              <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" class="press__link">Читать</a>
+            </li>
+            <li class="slider__item slider__item_section_press">
+              <p class="press__text"><span class="press__span">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
+              <a href="https://www.drive.ru/news/volkswagen/5e7447bdec05c4b251000010.html" class="press__link">Читать</a>
+            </li>
+          </ul>
+          <div class="press__dots" id="press-dots"></div>
         </div>
       </section>
-
     </main>
 
     <footer class="footer">
-      <!-- <p class="footer__copyright">© 2021 Mesto Russia</p> -->
+      <div class="footer__section">
+        <h2 class="footer__subsription-heading">Подписка</h2>
+        <p class="footer__subscription-text">На новые спецвыпуски машин.</p>
+        <form class="form">
+          <fieldset class="form__contact-info">
+            <input class="form__item form__item_el_name" type="text">
+            <input class="form__item form__item_el_surname" type="text">
+            <input class="form__item form__item_el_email" type="email">
+            <input class="form__button" type="submit">
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer__section">
+        <div class="logo logo_place_footer"></div>
+        <p class="footer__copyright">© Auto-Magazine 2021</p>
+      </div>
     </footer>
   </div>
 
 
-
-  <!-- Popups -->
-
-  <!-- <div class="popup" id="profile-edit-popup">
-    <div class="popup__container">
-      <button type="button" class="popup__close-button page__button" id="profile-edit-close"></button>
-      <form class="form" name="form" id="profile-edit-form">
-        <h2 class="form__title">Редактировать профиль</h2>
-        <fieldset class="form__items">
-          <input class="form__item" type="text" name="name" placeholder="Имя" id="edit-name">
-          <input class="form__item" type="text" name="activity" placeholder="Род деятельности" id="edit-activity">
-        </fieldset>
-        <button type="submit" class="form__submit-button page__button">Сохранить</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="popup" id="add-card-popup">
-    <div class="popup__container">
-      <button type="button" class="popup__close-button page__button" id="add-card-close"></button>
-      <form class="form" name="form" id="add-card-form">
-        <h2 class="form__title">Новое место</h2>
-        <fieldset class="form__items">
-          <input class="form__item form__item_place_add-card" type="text" name="card-name" placeholder="Название" id="card-name">
-          <input class="form__item form__item_place_add-card" type="url" name="card-link" placeholder="Ссылка на картинку" id="card-link">
-        </fieldset>
-        <button type="submit" class="form__submit-button page__button">Сохранить</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="popup popup_image-popup" id="image-popup">
-    <div class="popup__container">
-      <button type="button" class="popup__close-button page__button" id="image-popup-close"></button>
-      <figure class="popup__card">
-        <img class="popup__image" src="" alt="Фото">
-        <figcaption class="popup__image-caption"></figcaption>
-      </figure>
-    </div>
-  </div>
-
-Templates
- <template id="card-template">
-  <li class="card">
-    <img class="card__photo" src="" alt="">
-    <button type="button" class="card__delete-button page__button"></button>
-    <div class="card__info">
-      <p class="card__text"></p>
-      <button type="button" class="card__like page__button"></button>
-    </div>
-  </li>
-</template> -->
+<!-- Templates -->
+<template id="press-dot">
+  <button class="press__dot"></button>
+</template>
 
 <script src="./js/script.js"></script>
 </body>

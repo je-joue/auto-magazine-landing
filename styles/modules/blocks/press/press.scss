@@ -1,4 +1,11 @@
 .press {
   @include grid-desktop;
-  min-height: 500px;
+  height: 35vw;
+  grid-area: press;
+}
+
+@media screen and (min-width: 1440px) {
+  .press {
+    min-height: 500px;
+  }
 }

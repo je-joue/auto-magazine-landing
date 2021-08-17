@@ -1,3 +1,4 @@
 .gallery {
   @include grid-desktop;
+  grid-area: gallery;
 }

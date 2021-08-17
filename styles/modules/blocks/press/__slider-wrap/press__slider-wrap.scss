@@ -1,0 +1,15 @@
+.press__slider-wrap {
+  @include section-padding("m");
+  margin-top: 3.5vw;
+  margin-bottom: 3.5vw;
+  // box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (min-width: 1440px) {
+  .press__slider-wrap {
+    @include section-padding("l");
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}

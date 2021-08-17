@@ -7,6 +7,7 @@
   @include section-border;
   @include section-padding("m");
   box-sizing: border-box;
+  grid-area: header;
 }
 
 @media screen and (min-width: 1440px) {

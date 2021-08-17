@@ -1,4 +1,7 @@
 .slider {
   width: 100%;
+  height: 100%;
   overflow: hidden;
+  @include reset-list;
+  display: flex;
 }

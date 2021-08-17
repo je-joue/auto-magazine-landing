@@ -7,6 +7,7 @@
 @import './modules/blocks/page/page.scss';
 @import './modules/blocks/page/__content/page__content.scss';
 @import './modules/blocks/logo/logo.scss';
+@import './modules/blocks/logo/_place_footer/logo_place_footer.scss';
 
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__menu/header__menu.scss';
@@ -44,6 +45,7 @@
 @import './modules/blocks/slider/slider.scss';
 @import './modules/blocks/slider/__track/slider__track.scss';
 @import './modules/blocks/slider/__item/slider__item.scss';
+@import './modules/blocks/slider/__item/_section_press/slider__item_section_press.scss';
 
 @import './modules/blocks/press/press.scss';
 @import './modules/blocks/press/__text/press__text.scss';
@@ -51,3 +53,7 @@
 @import './modules/blocks/press/__slider-wrap/press__slider-wrap.scss';
 @import './modules/blocks/press/__link/press__link.scss';
 @import './modules/blocks/press/__heading/press__heading.scss';
+@import './modules/blocks/press/__dots/press__dots.scss';
+@import './modules/blocks/press/__dot/press__dot.scss';
+@import './modules/blocks/press/__dot/_active/press__dot_active.scss';
+

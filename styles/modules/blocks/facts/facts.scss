@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   @include section-border;
+  grid-area: facts;
 }
 
 // @media screen and (max-width: 768px) {
