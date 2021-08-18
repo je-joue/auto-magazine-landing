@@ -25,8 +25,8 @@
         </ul>
       </nav>
       <div class="logo"></div>
-      <button class="header__open-menu-btn"></button>
-      <button class="header__close-menu-btn"></button>
+      <button class="header__open-menu-btn" type="button"></button>
+      <button class="header__close-menu-btn" type="button"></button>
     </header>
 
     <main>
@@ -106,14 +106,14 @@
 
     <footer class="footer">
       <div class="footer__section">
-        <h2 class="footer__subsription-heading">Подписка</h2>
+        <h2 class="footer__subscription-heading">Подписка</h2>
         <p class="footer__subscription-text">На новые спецвыпуски машин.</p>
         <form class="form">
           <fieldset class="form__contact-info">
-            <input class="form__item form__item_el_name" type="text">
-            <input class="form__item form__item_el_surname" type="text">
-            <input class="form__item form__item_el_email" type="email">
-            <input class="form__button" type="submit">
+            <input class="form__item form__item_el_name" type="text" name="firstname" placeholder="имя">
+            <input class="form__item form__item_el_surname" type="text" name="surname" placeholder="фамилия">
+            <input class="form__item form__item_el_email" type="email" name="email" required placeholder="почта">
+            <input class="form__button" type="submit" value="подписка">
           </fieldset>
         </form>
       </div>

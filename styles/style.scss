@@ -57,3 +57,16 @@
 @import './modules/blocks/press/__dot/press__dot.scss';
 @import './modules/blocks/press/__dot/_active/press__dot_active.scss';
 
+@import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/footer/__subscription-heading/footer__subscription-heading.scss';
+@import './modules/blocks/footer/__subscription-text/footer__subscription-text.scss';
+@import './modules/blocks/footer/__section/footer__section.scss';
+@import './modules/blocks/footer/__copyright/footer__copyright.scss';
+
+@import './modules/blocks/form/form.scss';
+@import './modules/blocks/form/__item/form__item.scss';
+@import './modules/blocks/form/__item/_el_email/form__item_el_email.scss';
+@import './modules/blocks/form/__item/_el_name/form__item_el_name.scss';
+@import './modules/blocks/form/__item/_el_email/form__item_el_email.scss';
+@import './modules/blocks/form/__contact-info/form__contact-info.scss';
+@import './modules/blocks/form/__button/form__button.scss';
