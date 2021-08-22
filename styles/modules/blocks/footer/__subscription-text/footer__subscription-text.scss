@@ -11,3 +11,16 @@
     font-size: 19px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer__subscription-text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__subscription-text {
+    font-size: 14px;
+    padding-bottom: 60px;
+  }
+}

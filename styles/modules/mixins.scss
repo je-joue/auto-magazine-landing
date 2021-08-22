@@ -11,7 +11,14 @@
   width: 100%;
   display: grid;
   grid-template-columns: 50% 50%;
-  @include section-border;
+}
+
+@mixin grid-mobile {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  // grid-template-columns: 100%;
 }
 
 @mixin section-title {
@@ -41,4 +48,13 @@
   background-color: transparent;
   padding: 0;
   cursor: pointer;
+}
+
+@mixin hover-link {
+  opacity: 0.6;
+}
+
+@mixin hover-button {
+  background: map.get($color, "yellow");
+  color: map.get($color, "dark");
 }

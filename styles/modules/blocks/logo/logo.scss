@@ -4,5 +4,12 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 184px;
-  height: auto;
+  height: 38px;
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 100px;
+    height: 20px;
+  }
 }

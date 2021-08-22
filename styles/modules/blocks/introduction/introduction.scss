@@ -1,9 +1,8 @@
 .introduction {
-  @include grid-desktop;
   padding-top: 100px;
   padding-bottom: 100px;
-  grid-template-rows: 1fr min-content;
-  grid-area: introduction;
+  box-sizing: border-box;
+  @include section-border;
 }
 
 @media screen and (min-width: 1440px) {
@@ -13,15 +12,18 @@
   }
 }
 
-// @media screen and (max-width: 768px) {
-//   .introduction {
-//     grid-template-columns: 1fr;
-//   }
-// }
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .introduction {
+    @include section-padding("m");
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction {
+    @include section-padding("s");
     padding-top: 60px;
     padding-bottom: 60px;
   }
 }
+

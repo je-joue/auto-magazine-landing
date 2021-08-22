@@ -2,17 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   @include section-border;
-  grid-area: facts;
 }
 
-// @media screen and (max-width: 768px) {
-//   .facts {
-//     grid-template-columns: 100% 50% 50%;
-//   }
-// }
 
-// @media screen and (max-width: 320px) {
-//   .facts {
-//     grid-template-columns: 100% 100% 100%;
-//   }
-// }

@@ -10,3 +10,15 @@
     font-size: 46px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer__subscription-heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__subscription-heading {
+    font-size: 26px;
+  }
+}

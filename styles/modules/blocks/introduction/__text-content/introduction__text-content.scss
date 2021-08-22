@@ -15,3 +15,16 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .introduction__text-content {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction__text-content {
+    margin-bottom: 60px;
+  }
+}

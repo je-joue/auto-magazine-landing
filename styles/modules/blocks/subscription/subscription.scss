@@ -1,0 +1,10 @@
+.subscription {
+  width: 50%;
+  @include section-padding("m");
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -12,3 +12,22 @@
     font-size: 19px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .introduction__text {
+    font-size: 19px;
+    padding-bottom: 30px;
+  }
+
+  .introduction__text:last-of-type {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction__text {
+    font-size: 11px;
+    line-height: 127%;
+    padding-bottom: 26px;
+  }
+}

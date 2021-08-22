@@ -13,3 +13,11 @@
     margin-bottom: 50px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .press__slider-wrap {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+}

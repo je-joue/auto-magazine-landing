@@ -1,7 +1,13 @@
 .gallery__content {
-  width: 100%;
+  // width: 100%;
   border-right: $border;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__content {
+    border: none;
+  }
 }

@@ -11,3 +11,18 @@
     font-size: 65px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .introduction__heading {
+    font-size: 65px;
+    padding-bottom: 51px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction__heading {
+    font-size: 38px;
+    line-height: 132%;
+    padding-bottom: 30px;
+  }
+}

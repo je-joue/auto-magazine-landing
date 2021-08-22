@@ -11,9 +11,33 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .facts__text {
+  .facts__list-wrap {
     padding-top: 40px;
     padding-bottom: 45px;
     @include section-padding("l");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .facts__list-wrap {
+    min-height: calc(65.88vw);
+    padding-top: 40px;
+    padding-bottom: 45px;
+    @include section-padding("l");
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .facts__list-wrap {
+    min-height: 0;
+    width: 100%;
+    @include section-padding("s");
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: none;
+  }
+  .facts__list-wrap:first-of-type {
+    border-bottom: $border;
   }
 }

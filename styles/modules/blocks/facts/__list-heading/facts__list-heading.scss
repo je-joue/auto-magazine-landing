@@ -14,3 +14,19 @@
     letter-spacing: 2px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .facts__list-heading {
+    padding-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .facts__list-heading {
+    padding-bottom: 40px;
+    font-size: 22px;
+    line-height: 100%;
+  }
+}

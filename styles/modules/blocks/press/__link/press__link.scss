@@ -14,3 +14,18 @@
   display: inline-block;
   align-self: flex-end;
 }
+
+.press__link:hover {
+  @include hover-button;
+}
+
+@media screen and (max-width: 500px) {
+  .press__link {
+    font-size: 14px;
+    line-height: 40px;
+    width: 88px;
+    border-radius: 44px / 21px;
+    -moz-border-radius: 44px / 21px;
+    -webkit-border-radius: 44px / 21px;
+  }
+}

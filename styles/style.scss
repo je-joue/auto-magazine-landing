@@ -9,15 +9,21 @@
 @import './modules/blocks/logo/logo.scss';
 @import './modules/blocks/logo/_place_footer/logo_place_footer.scss';
 
+@import './modules/blocks/main/main.scss';
+
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__menu/header__menu.scss';
-@import './modules/blocks/header/__menu-wrap/header__menu-wrap.scss';
+@import './modules/blocks/header/_mobile-menu-open/header_mobile-menu-open.scss';
+@import './modules/blocks/header/__menu/_open/header__menu_open.scss';
+@import './modules/blocks/header/__menu-container/header__menu-container.scss';
 @import './modules/blocks/header/__menu-item/header__menu-item.scss';
 @import './modules/blocks/header/__menu-link/header__menu-link.scss';
-@import './modules/blocks/header/__close-menu-btn/header__close-menu-btn.scss';
-@import './modules/blocks/header/__open-menu-btn/header__open-menu-btn.scss';
+@import './modules/blocks/header/__menu-btn/header__menu-btn.scss';
+@import './modules/blocks/header/__menu-btn/_type_close/header__menu-btn_type_close.scss';
+@import './modules/blocks/header/__element-hidden/header__element-hidden.scss';
 
 @import './modules/blocks/introduction/introduction.scss';
+@import './modules/blocks/introduction/__content/introduction__content.scss';
 @import './modules/blocks/introduction/__text/introduction__text.scss';
 @import './modules/blocks/introduction/__text-content/introduction__text-content.scss';
 @import './modules/blocks/introduction/__img/introduction__img.scss';
@@ -56,6 +62,8 @@
 @import './modules/blocks/press/__dots/press__dots.scss';
 @import './modules/blocks/press/__dot/press__dot.scss';
 @import './modules/blocks/press/__dot/_active/press__dot_active.scss';
+
+@import './modules/blocks/subscription/subscription.scss';
 
 @import './modules/blocks/footer/footer.scss';
 @import './modules/blocks/footer/__subscription-heading/footer__subscription-heading.scss';

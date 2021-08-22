@@ -10,3 +10,9 @@
     left: map.get($side-padding, "l");
   }
 }
+
+@media screen and (max-width: 768px) {
+  .press__dots {
+    left: 0;
+  }
+}

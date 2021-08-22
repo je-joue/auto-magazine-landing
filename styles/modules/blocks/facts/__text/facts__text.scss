@@ -19,3 +19,25 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .facts__text {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    @include section-padding("l");
+    font-size: 30px;
+    width: 100%;
+    border-right: none;
+    border-bottom: $border;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .facts__text {
+    @include section-padding("s");
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 16px;
+    line-height: 169%;
+  }
+}
