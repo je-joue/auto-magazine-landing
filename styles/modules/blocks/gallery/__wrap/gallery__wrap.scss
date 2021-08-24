@@ -1,0 +1,29 @@
+.gallery__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include section-padding("m");
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery__wrap {
+    @include section-padding("l");
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__wrap {
+    padding: 50px 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery__wrap {
+    padding: 50px 0 0 0;
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  min-height: 70px;
+  position: relative;
+  // padding-top: 16px;
+  // padding-bottom: 16px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr max-content 1fr;
+  @include section-border;
+  @include section-padding("m");
+  box-sizing: border-box;
+  grid-area: header;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    @include section-padding("l");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    grid-template-columns: 26px max-content 26px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    @include section-padding("s");
+  }
+}
+
+// @media screen and (max-width: 320px) {
+//   .header {
+//     padding-top: 25px;
+//     padding-bottom: 25px;
+//   }
+// }

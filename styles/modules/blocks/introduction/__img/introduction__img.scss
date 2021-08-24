@@ -1,0 +1,20 @@
+.introduction__img {
+  width: 100%;
+  height: auto;
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction__img {
+    grid-row: unset;
+    grid-column: unset;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction__img {
+    padding-bottom: 60px;
+  }
+}

@@ -1,0 +1,12 @@
+.press__dot {
+  @include reset-button;
+  cursor: pointer;
+  margin-right: 14px;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  border: $border;
+}
+
+
+

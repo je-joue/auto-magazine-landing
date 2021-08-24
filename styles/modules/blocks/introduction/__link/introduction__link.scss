@@ -1,0 +1,40 @@
+.introduction__link {
+  @include reset-link;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 400%;
+  box-sizing: border-box;
+  text-align: center;
+  width: 360px;
+  border: $border;
+  justify-self: center;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+.introduction__link:hover{
+  @include hover-button;
+}
+
+@media screen and (min-width: 1440px) {
+  .introduction__link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introduction__link {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction__link {
+    width: 100%;
+  }
+}

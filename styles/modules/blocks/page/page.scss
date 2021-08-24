@@ -1,0 +1,7 @@
+.page {
+  background-color: map.get($color, "dark");
+  font-family: 'SourceSansPro', Arial, Helvetica, sans-serif;
+  color: map.get($color, "yellow");
+  width: 100vw;
+  overflow-x: hidden;
+}

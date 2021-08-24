@@ -1,0 +1,26 @@
+.footer__subscription-text {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 1.3vw;
+  line-height: 147%;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__subscription-text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__subscription-text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__subscription-text {
+    font-size: 14px;
+    padding-bottom: 60px;
+  }
+}

@@ -1,0 +1,25 @@
+.press__heading {
+  @include reset-text;
+  border-right: $border;
+  @include section-padding("m");
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
+  box-sizing: border-box;
+  @include section-title;
+  font-size: 3.2vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .press__heading {
+    @include section-padding("l");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .press__heading {
+    display: none;
+  }
+}

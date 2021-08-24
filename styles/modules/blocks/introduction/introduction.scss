@@ -1,0 +1,29 @@
+.introduction {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  @include section-border;
+}
+
+@media screen and (min-width: 1440px) {
+  .introduction {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .introduction {
+    @include section-padding("m");
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .introduction {
+    @include section-padding("s");
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+

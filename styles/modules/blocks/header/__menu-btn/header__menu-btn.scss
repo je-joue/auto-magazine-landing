@@ -1,0 +1,24 @@
+.header__menu-btn {
+  display: none;
+  @include reset-button;
+  background-image: url(../images/burger.svg);
+  width: 26px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-self: end;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu-btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu-btn {
+    width: 20px;
+    height: 16px;
+  }
+}

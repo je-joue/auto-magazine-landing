@@ -1,0 +1,31 @@
+.slider-content__press-link {
+  @include reset-link;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 50px;
+  text-align: center;
+  border: $border;
+  width: 110px;
+  // height: 52px;
+  border-radius: 55px / 26px;
+  -moz-border-radius: 55px / 26px;
+  -webkit-border-radius: 55px / 26px;
+  box-sizing: border-box;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.slider-content__press-link:hover {
+  @include hover-button;
+}
+
+@media screen and (max-width: 500px) {
+  .slider-content__press-link {
+    font-size: 14px;
+    line-height: 40px;
+    width: 88px;
+    border-radius: 44px / 21px;
+    -moz-border-radius: 44px / 21px;
+    -webkit-border-radius: 44px / 21px;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  grid-area: footer;
+  @include grid-desktop;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    @include grid-mobile;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    @include section-padding("l");
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer {
+    @include section-padding("s");
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

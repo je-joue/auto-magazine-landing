@@ -1,0 +1,6 @@
+.header__menu-container {
+  @include reset-list;
+  display: flex;
+  flex-direction: row;
+
+}

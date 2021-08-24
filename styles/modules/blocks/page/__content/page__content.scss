@@ -1,0 +1,17 @@
+.page__content {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1441px) {
+  .page__content {
+    border-right: $border;
+    border-left: $border;
+  }
+}
+
+

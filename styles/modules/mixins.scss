@@ -1,0 +1,60 @@
+@mixin section-border {
+  border-bottom: $border;
+}
+
+@mixin section-padding($padding) {
+  padding-left: map.get($side-padding, $padding);
+  padding-right: map.get($side-padding, $padding);
+}
+
+@mixin grid-desktop {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@mixin grid-mobile {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  // grid-template-columns: 100%;
+}
+
+@mixin section-title {
+  font-weight: 400;
+  line-height: 100%;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+@mixin reset-text {
+  margin: 0;
+  padding: 0;
+}
+
+
+@mixin reset-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+@mixin hover-link {
+  opacity: 0.6;
+}
+
+@mixin hover-button {
+  background: map.get($color, "yellow");
+  color: map.get($color, "dark");
+}

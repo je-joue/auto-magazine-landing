@@ -1,0 +1,26 @@
+.press__text {
+  @include reset-text;
+  // width: 50%;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 140%;
+}
+
+@media screen and (min-width: 1440px) {
+  .press__text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .press__text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .press__text {
+    font-size: 16px;
+    line-height: 169%;
+  }
+}

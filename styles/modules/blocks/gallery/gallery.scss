@@ -1,0 +1,23 @@
+.gallery {
+  @include grid-desktop;
+  @include section-border;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    box-sizing: border-box;
+    @include grid-mobile;
+    @include section-padding("m");
+    padding-top: 35px;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    @include section-padding("s");
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

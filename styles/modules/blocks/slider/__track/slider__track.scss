@@ -1,0 +1,7 @@
+.slider__track {
+  @include reset-list;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 0.4s cubic-bezier(0.63, -0.01, 0.33, 0.95);
+}

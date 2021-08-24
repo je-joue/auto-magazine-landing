@@ -1,0 +1,10 @@
+.introduction__content {
+  grid-template-rows: 1fr min-content;
+  @include grid-desktop;
+}
+
+@media screen and (max-width: 768px) {
+  .introduction__content {
+    @include grid-mobile;
+  }
+}

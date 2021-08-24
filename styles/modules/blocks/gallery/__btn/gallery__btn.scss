@@ -1,0 +1,25 @@
+.gallery__btn {
+  @include reset-button;
+  width: 42px;
+  height: 34px;
+  background-image: url(../images/arrow.svg);
+  background-size: contain;
+  margin-right: 30px;
+  transition: opacity .5s ease-in-out;
+}
+
+.gallery__btn:last-of-type {
+  margin-right: 0;
+}
+
+.gallery__btn:hover {
+  @include hover-link;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery__btn {
+    width: 24px;
+    height: 20px;
+    margin-right: 16px;
+  }
+}

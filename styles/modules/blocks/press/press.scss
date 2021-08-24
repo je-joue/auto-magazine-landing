@@ -1,0 +1,31 @@
+.press {
+  @include grid-desktop;
+  height: 35vw;
+  border-bottom: $border;
+}
+
+@media screen and (min-width: 1440px) {
+  .press {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .press {
+    @include grid-mobile;
+    @include section-padding("l");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 500px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .press {
+    min-height: 287px;
+    @include section-padding("s");
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

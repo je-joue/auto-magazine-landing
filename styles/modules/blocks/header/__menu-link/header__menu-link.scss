@@ -1,0 +1,14 @@
+.header__menu-link {
+  @include reset-link;
+  padding-right: 20px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: opacity .5s ease-in-out;
+}
+
+.header__menu-link:hover {
+  @include hover-link;
+}

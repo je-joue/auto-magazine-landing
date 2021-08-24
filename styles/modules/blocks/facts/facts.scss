@@ -1,0 +1,7 @@
+.facts {
+  display: flex;
+  flex-wrap: wrap;
+  @include section-border;
+}
+
+

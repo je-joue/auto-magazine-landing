@@ -1,0 +1,24 @@
+.footer__subscription-heading {
+  @include reset-text;
+  padding-bottom: 16px;
+  @include section-title;
+  font-size: 3.2vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .footer__subscription-heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__subscription-heading {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__subscription-heading {
+    font-size: 26px;
+  }
+}

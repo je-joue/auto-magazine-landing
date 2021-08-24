@@ -1,0 +1,32 @@
+.facts__list-heading {
+  @include reset-text;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 123%;
+  letter-spacing: 0.14vw;
+  padding-bottom: 3.5vw;
+}
+
+@media screen and (min-width: 1440px) {
+  .facts__list-heading {
+    padding-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .facts__list-heading {
+    padding-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .facts__list-heading {
+    padding-bottom: 40px;
+    font-size: 22px;
+    line-height: 100%;
+  }
+}
