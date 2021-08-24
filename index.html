@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./styles/style.css">
-  <link rel="stylesheet" href="./pages/index.css">
   <title>AUTO-MAGAZINE</title>
 </head>
 
@@ -45,7 +44,7 @@
       </section>
 
       <section class="facts" id="facts">
-        <p class="facts__text"><span class="facts__text-span">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e&#8209Bulli: классический вэн T1 1966 года
+        <p class="facts__text"><span class="facts__text-span">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт e&#8209;Bulli: классический вэн T1 1966 года
           с электрической силовой установкой.
           По словам производителя, проект получит коммерческое продолжение, и через фирму-партнера eClassics наборы для конверсии микроавтобусов в электрокары
           и уже готовые машины будут продавать частным клиентам.</p>
@@ -70,13 +69,13 @@
         <div class="gallery__content">
           <div class="slider">
             <ul class="slider__track" id="gallery-slider" style="transform: translate(0)">
-              <li class="slider__item">
-                <img class="gallery__image" src="./images/slider1.jpg" alt="Фото 1">
+              <li class="slider__item slider-content">
+                <img class="slider-content__gallery-img" src="./images/slider1.jpg" alt="Фото 1">
               </li>
-              <li class="slider__item">
+              <li class="slider__item slider-content">
                 <img class="gallery__image" src="./images/slider2.jpg" alt="Фото 1">
               </li>
-              <li class="slider__item">
+              <li class="slider__item slider-content">
                 <img class="gallery__image" src="./images/slider3.jpg" alt="Фото 1">
               </li>
             </ul>
@@ -96,13 +95,13 @@
         <div class="press__slider-wrap">
           <div class="slider">
             <ul class="slider__track" id="press-slider">
-              <li class="slider__item slider__item_section_press">
-                <p class="press__text"><span class="press__span">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
-                <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" class="press__link" target="_blank">Читать</a>
+              <li class="slider__item slider__item_section_press slider-content">
+                <p class="slider-content__press-text"><span class="press__span">Engadget:</span> VW’s e-BULLI concept shows how your classic van can become an EV.</p>
+                <a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" class="slider-content__press-link" target="_blank">Читать</a>
               </li>
-              <li class="slider__item slider__item_section_press">
-                <p class="press__text"><span class="press__span">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
-                <a href="https://www.drive.ru/news/volkswagen/5e7447bdec05c4b251000010.html" class="press__link" target="_blank">Читать</a>
+              <li class="slider__item slider__item_section_press slider-content">
+                <p class="slider-content__press-text"><span class="press__span">Drive.ru:</span> Вэн Volkswagen e-Bulli скрестил классику с современной техникой.</p>
+                <a href="https://www.drive.ru/news/volkswagen/5e7447bdec05c4b251000010.html" class="slider-content__press-link" target="_blank">Читать</a>
               </li>
             </ul>
           </div>
@@ -117,12 +116,12 @@
         <div class="footer__subscription-wrap">
           <h2 class="footer__subscription-heading">Подписка</h2>
           <p class="footer__subscription-text">На новые спецвыпуски машин.</p>
-          <form class="form">
+          <form class="form" name="subscription-form">
             <fieldset class="form__contact-info">
               <input class="form__item form__item_el_name" type="text" name="firstname" placeholder="имя">
               <input class="form__item form__item_el_surname" type="text" name="surname" placeholder="фамилия">
               <input class="form__item form__item_el_email" type="email" name="email" required placeholder="почта">
-              <input class="form__button" type="submit" value="подписка" onclick="this.value='Готово!'">
+              <input class="form__button" type="submit" value="подписка">
             </fieldset>
           </form>
         </div>

@@ -52,3 +52,14 @@
 .form__item:focus {
   outline: none;
 }
+
+.form__item:-webkit-autofill,
+.form__item:-webkit-autofill:hover,
+.form__item:-webkit-autofill:focus,
+.form__item:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px map.get($color, "dark") inset;
+}
+
+.form__item:-webkit-autofill {
+  -webkit-text-fill-color: map.get($color, "yellow");
+}

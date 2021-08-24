@@ -2,7 +2,7 @@
 @import '../vendor/normalize.css';
 .page {
   background-color: #191D2C;
-  font-family: "SourceSansPro", sans-serif;
+  font-family: "SourceSansPro", Arial, Helvetica, sans-serif;
   color: #E1FD2C;
   width: 100vw;
   overflow-x: hidden;
@@ -462,6 +462,7 @@
   }
 
   .facts__list-wrap:first-of-type {
+    border-right: none;
     border-bottom: 1px solid #E1FD2C;
   }
 }
@@ -685,6 +686,69 @@
   align-items: flex-start;
 }
 
+.slider-content__gallery-img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slider-content__press-link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid #E1FD2C;
+  width: 110px;
+  border-radius: 55px/26px;
+  -moz-border-radius: 55px/26px;
+  -webkit-border-radius: 55px/26px;
+  box-sizing: border-box;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.slider-content__press-link:hover {
+  background: #E1FD2C;
+  color: #191D2C;
+}
+
+@media screen and (max-width: 500px) {
+  .slider-content__press-link {
+    font-size: 14px;
+    line-height: 40px;
+    width: 88px;
+    border-radius: 44px/21px;
+    -moz-border-radius: 44px/21px;
+    -webkit-border-radius: 44px/21px;
+  }
+}
+.slider-content__press-text {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 140%;
+}
+
+@media screen and (min-width: 1440px) {
+  .slider-content__press-text {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .slider-content__press-text {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .slider-content__press-text {
+    font-size: 16px;
+    line-height: 169%;
+  }
+}
 .press {
   width: 100%;
   display: grid;
@@ -1087,6 +1151,17 @@
 
 .form__item:focus {
   outline: none;
+}
+
+.form__item:-webkit-autofill,
+.form__item:-webkit-autofill:hover,
+.form__item:-webkit-autofill:focus,
+.form__item:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #191D2C inset;
+}
+
+.form__item:-webkit-autofill {
+  -webkit-text-fill-color: #E1FD2C;
 }
 
 .form__contact-info {

@@ -66,3 +66,9 @@ function moveLeft() {
   i = i + 1;
   }
 }
+
+// Form
+const formBtn = document.querySelector('.form__button');
+formBtn.addEventListener('click', function() {
+  formBtn.value = 'Готово!';
+});

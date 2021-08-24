@@ -7,7 +7,7 @@
 @import './modules/blocks/page/page.scss';
 @import './modules/blocks/page/__content/page__content.scss';
 @import './modules/blocks/logo/logo.scss';
-@import './modules/blocks/logo/_place_footer/logo_place_footer.scss';
+@import './modules/blocks/logo/_place/logo_place_footer.scss';
 
 @import './modules/blocks/main/main.scss';
 
@@ -19,7 +19,7 @@
 @import './modules/blocks/header/__menu-item/header__menu-item.scss';
 @import './modules/blocks/header/__menu-link/header__menu-link.scss';
 @import './modules/blocks/header/__menu-btn/header__menu-btn.scss';
-@import './modules/blocks/header/__menu-btn/_type_close/header__menu-btn_type_close.scss';
+@import './modules/blocks/header/__menu-btn/_type/header__menu-btn_type_close.scss';
 @import './modules/blocks/header/__element-hidden/header__element-hidden.scss';
 
 @import './modules/blocks/introduction/introduction.scss';
@@ -45,13 +45,17 @@
 @import './modules/blocks/gallery/__content/gallery__content.scss';
 @import './modules/blocks/gallery/__buttons/gallery__buttons.scss';
 @import './modules/blocks/gallery/__btn/gallery__btn.scss';
-@import './modules/blocks/gallery/__btn/_type_back/gallery__btn_type_back.scss';
+@import './modules/blocks/gallery/__btn/_type/gallery__btn_type_back.scss';
 @import './modules/blocks/gallery/__btn/_disabled/gallery__btn_disabled.scss';
 
 @import './modules/blocks/slider/slider.scss';
 @import './modules/blocks/slider/__track/slider__track.scss';
 @import './modules/blocks/slider/__item/slider__item.scss';
-@import './modules/blocks/slider/__item/_section_press/slider__item_section_press.scss';
+@import './modules/blocks/slider/__item/_section/slider__item_section_press.scss';
+
+@import './modules/blocks/slider-content/__gallery-img/slider-content__gallery-img.scss';
+@import './modules/blocks/slider-content/__press-link/slider-content__press-link.scss';
+@import './modules/blocks/slider-content/__press-text/slider-content__press-text.scss';
 
 @import './modules/blocks/press/press.scss';
 @import './modules/blocks/press/__text/press__text.scss';
@@ -73,8 +77,8 @@
 
 @import './modules/blocks/form/form.scss';
 @import './modules/blocks/form/__item/form__item.scss';
-@import './modules/blocks/form/__item/_el_email/form__item_el_email.scss';
-@import './modules/blocks/form/__item/_el_name/form__item_el_name.scss';
-@import './modules/blocks/form/__item/_el_email/form__item_el_email.scss';
+@import './modules/blocks/form/__item/_el/form__item_el_email.scss';
+@import './modules/blocks/form/__item/_el/form__item_el_name.scss';
+@import './modules/blocks/form/__item/_el/form__item_el_email.scss';
 @import './modules/blocks/form/__contact-info/form__contact-info.scss';
 @import './modules/blocks/form/__button/form__button.scss';
